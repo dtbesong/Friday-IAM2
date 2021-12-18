@@ -45,6 +45,9 @@ resource "aws_iam_instance_profile" "test_profile" {
   
 }
 
+resource "aws_vpc" "myvpc" {
+  
+}
 
 # These are the policies, stating what service this role can access.
 # Here we are granting access to s3 and DynamoDB.
